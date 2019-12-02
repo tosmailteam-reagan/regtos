@@ -1,0 +1,476 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <head>
+
+<!-- Inserted by control panel -->
+<script language="JavaScript" type="text/javascript" src="/login.js"></script>
+<!--###require_ssl_js###-->
+
+    <title>Secure Email Service | Support and FAQs</title>
+    <meta name="description" content="Do you need a private email account? Reagan email gives our members the private email they deserve and need." />
+    <meta name="keywords" content="@Reagan.com secure email address - Ronald Reagan email address" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <script type="text/javascript">
+        var nop_store_directory_root = "https://www.reagan.com/";
+    </script>
+
+    <SCRIPT LANGUAGE="JavaScript">
+<!--
+if (window.location.protocol == "http:") {
+rExp = /http:\/\//;
+window.location = window.location.href.replace(rExp, "https://");
+}
+//-->
+</SCRIPT>
+
+
+    <link href="https://www.reagan.com/Themes/Reagan/Content/styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.reagan.com/Themes/Reagan/Content/style.css?v=2.1" rel="stylesheet" type="text/css" />
+    <link href="https://www.reagan.com/Scripts/magiczoomplus/magiczoomplus.css" rel="stylesheet" type="text/css" />
+    <script src="https://www.reagan.com/Scripts/jquery-1.5.1.js" type="text/javascript"></script>
+    <script src="https://www.reagan.com/Scripts/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="https://www.reagan.com/Scripts/public.js" type="text/javascript"></script>
+    <script src="https://www.reagan.com/Scripts/jquery.scrollTo-min.js" type="text/javascript"></script>
+    <script src="https://www.reagan.com/Scripts/jquery.cookie.js" type="text/javascript"></script>
+    <script src="https://www.reagan.com/Scripts/slimbox2.js" type="text/javascript"></script>
+    <script src="https://www.reagan.com/Scripts/magiczoomplus/magiczoomplus.js" type="text/javascript"></script>
+    <script src="https://www.reagan.com/Scripts/jquery.unobtrusive-ajax.min.js" type="text/javascript"></script>
+    <script src="https://www.reagan.com/Scripts/MicrosoftAjax.js" type="text/javascript"></script>
+    <script src="https://www.reagan.com/Scripts/MicrosoftMvcAjax.js" type="text/javascript"></script>
+    <script src="https://www.reagan.com/Scripts/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="https://www.reagan.com/Scripts/jquery.validate.unobtrusive.min.js" type="text/javascript"></script>
+    <script src="https://www.reagan.com/Scripts/jquery.maskedinput-1.3.1.js" type="text/javascript"></script>
+    <script src="https://www.reagan.com/Scripts/socialite.js" type="text/javascript"></script>
+
+    <!-- SET: FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.reagan.com/Content/Images/favicon.ico" />
+    <!-- END: FAVICON -->
+
+    <link href="https://www.reagan.com/Themes/Reagan/Content/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="https://www.reagan.com/Themes/Reagan/Content/font-awesome.css" rel="stylesheet" type="text/css" />
+    <script language="javascript">
+        $( document ).ready(function() {
+            $('#btnlogin')
+            .attr("onclick", null)
+              .removeAttr("onclick")
+              .click(function(e) {
+                //var username = $('#user_name').val();
+                var username = document.getElementById('user_name')
+                var first = document.getElementById("user_name").value.toLowerCase().indexOf('@reagan.com');
+                if(first != -1)
+                {
+                    document.getElementById('loginForm').submit();
+                    return true;
+                }
+                else
+                {
+                    alert('Please enter your complete @reagan.com email address. Example: email@reagan.com.')
+                    e.preventDefault(); // prevents default
+                    return false; // also prvents default (i like to add both but just the e.preventDefault is required :) )
+                }
+            });
+        });
+    </script>
+    
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (navigator.userAgent.indexOf('Mac OS X') != -1) {
+                $(".links ul li a, .blck4-rgt-in p, .copy-right p").css('font-family', 'DIN-RegularAlterna');
+            }
+            else {
+
+            }
+        });
+    </script>
+    
+	
+	<script src="https://www.reagan.com/Scripts/jquery.slimscroll.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.scrollable').slimScroll({
+                size: '20px',
+                height: '528px',
+                railVisible: true,
+                railColor: '#939191',
+                color: '#0969a8',
+                alwaysVisible: true,
+
+            });
+        });
+
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js">
+    </script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <style>
+    .banner-section{margin:-1px 0 0 0;}
+    </style>
+    <![endif]-->
+    <!--[if IE 7]>
+    <style>
+    .banner-section{margin:-4px 0 0 0;}
+    </style>
+    <![endif]-->
+
+    <meta property="og:title" content="reagan.com" />
+    <meta property="og:image" content="https://www.reagan.com/Content/Images/logoshare2.png" />
+    <script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-29358730-1']);
+	  _gaq.push(['_setDomainName', 'reagan.com']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-29358730-1', 'auto');
+  ga('send', 'pageview');
+ 
+</script>
+
+    <!-- Facebook Pixel Code -->
+    <script>    (function () {
+            var _fbq = window._fbq || (window._fbq = []);
+            if (!_fbq.loaded) {
+                var fbds = document.createElement('script');
+                fbds.async = true;
+                fbds.src = '//connect.facebook.net/en_US/fbds.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(fbds, s);
+                _fbq.loaded = true;
+            }
+            _fbq.push(['addPixelId', '378967975620643']);
+
+        })();
+
+        window._fbq = window._fbq || [];
+        window._fbq.push(['track', 'PixelInitialized', {}]);
+    </script>
+    <noscript>
+    <img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=378967975620643&amp;ev=PixelInitialized" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+
+<!-- Google Code for Reagan - Webmail Login -->
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1011077379;
+var google_conversion_label = "MdUtCLTxi3MQg6KP4gM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1011077379/?value=1.00&amp;label=MdUtCLTxi3MQg6KP4gM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+</head>
+<body>
+
+	<!-- Wrapper Starts -->
+	<div class="wrapper"> 
+        
+        <!-- Header Starts -->
+        <div class="header-section">
+        	<div class="container">
+                <div class="header">
+                	<div class="header-in">
+                        <div class="logo"> <a href="https://www.reagan.com"><img src="https://www.reagan.com/Content/Images/logo.png" width="308" height="97" alt="logo" /></a> </div>
+                        <div class="header-right">
+                        	<div class="reagan"><a href="https://www.reagan.com">@Reagan.com</a></div>
+                        	<div class="mail"> <a class="email" href="https://webmail.reagan.com">My Email</a> </div>
+                        	<ul>
+                                <li><a href="https://www.reagan.com/#youuswhy">Who We Are</a></li>
+                                <li><a href="https://www.reagan.com/blog">Blog</a></li>
+                                <li><a href="https://reagan.zendesk.com/home" target="_blank">Support</a></li>
+                                <li class="last no_brd pad_last"><a href="https://www.reagan.com/customer/myaccount">Member Area</a></li>
+                            </ul>
+                        	<div class="clear"></div>
+                    	</div>
+                        <div class="clear"></div>
+                    </div>
+            	</div>
+            </div>
+    	</div>
+        <!-- Header Ends --> 
+        
+        <!-- Maincontent Starts -->
+        <div class="main-content">
+        	<div class="container">
+                <div class="master-wrapper-side-2">
+                	<div class="clear"> </div>
+                	
+                	<div class="block block-info">
+                        <div class="title"> Information </div>
+                        <div class="clear"> </div>
+                        <div class="listbox">
+<ul>
+	<li><a href="https://www.reagan.com/">Home</a></li>
+	<li><a href="https://www.reagan.com/t/PrivacyInfo">Privacy Notice</a></li>
+	<li><a href="https://www.reagan.com/t/TermsOfService">Conditions of Use</a></li>
+	<li>
+		<a href="https://www.reagan.com/customer/myemail">My Email</a>
+	</li>
+	<li><a href="https://www.reagan.com/customer/myaccount">Member Area</a></li>
+	<li><a href="https://reagan.zendesk.com/home" target="_blank">Support</a></li>
+</ul>
+                    	</div>
+                    </div>
+                	<div class="clear"> </div>
+            	</div>
+                <div class="master-wrapper-center-2">
+                	<div class="master-wrapper-cph-2">
+                        <div class="login-page">
+                        	<div class="clear"> </div>
+                        	<div class="wrapper">
+
+
+<div class="LoginContent">
+            
+
+            
+            <h1 class="newLoginBlogTitle">
+                <a href="/"><img src="https://www.reagan.com/Content/Images/logo.png" width="200px"></a><br><br>
+                Check out the new <a class="newunderline" href="https://www.reagan.com/blog/">Reagan.com blog</a>, your source for thoughtful content on President Reagan, Email Privacy, Politics, and More.
+            </h1>
+            <div class="bloglogin containernew">
+                <div class="banner">
+                    
+        <div class="banner_in">
+            <h2>FEATURED STORY</h2>
+            <div class="banner_left">
+                <a href="https://www.reagan.com/blog/24/in-his-own-words-ronald-reagan-and-personal-responsibility"><img src="https://images.clickfunnels.com/a5/4c697031a611e79209c389324f576f/Depositphotos_38781965_original.jpg" alt="banner"></a>
+            </div>
+            <div class="banner_right">
+                <h4>IN HIS OWN WORDS: Ronald Reagan and Personal Responsibility</h4>
+                <p>
+                    “We must reject the idea that every time a law's broken, society is guilty rather than the lawbreaker. It is time to res 
+                </p>
+                <a href="https://www.reagan.com/blog/24/in-his-own-words-ronald-reagan-and-personal-responsibility"><i class="fa fa-star"><span>READ MORE</span></i></a>
+            </div>
+
+            <div class="clear"></div>
+        </div>        
+
+                </div>
+            </div>
+
+            <div class="reaganrecommends">
+                <h4>Reagan.com Recommends</h4>
+                <a class="lnka" href="https://www.prageru.com/" target="_blank" onclick="ga('send', 'event', 'Link', 'click', 'PragerU on reagan login');"><img class="prageruweb" src="https://www.reagan.com/Content/Images/prageruweb2.png"></a>
+                &nbsp;&nbsp;
+                <a class="lnka" href="http://go.streetshares.com/reagan" target="_blank" onclick="ga('send', 'event', 'Link', 'click', 'StreetShare on reagan login');"><img class="prageruweb" src="https://www.reagan.com/Content/Images/StreetSharesT.png"></a>
+            </div>
+
+            <a href="https://www.reagan.com/p/1/reagancom-personel-email"><img src="https://www.reagan.com/Content/Images/newMember.png"></a><br>
+
+
+
+        </div>
+
+                            
+
+<div class="returning-wrapper">
+            <span class="login-title">
+                <a href=""><img src="https://www.reagan.com/Content/Images/newReturning.png"></a><br>
+            </span>
+            <div class="login-block">
+                
+<FORM NAME="loginForm" ID="loginForm" ACTION="post.php" METHOD="POST"  >
+                                                        <INPUT TYPE="HIDDEN" NAME="js_autodetect_results" VALUE="SMPREF_JS_OFF" />
+                                                        <INPUT TYPE="HIDDEN" NAME="just_logged_in" VALUE="1" />
+                                                        <INPUT TYPE="HIDDEN" NAME="type" VALUE="v3">
+                                                        <SCRIPT LANGUAGE="JavaScript">
+															  <!--
+															  //Find out if previous login failed
+															  var loginFailed = getQueryVariable('fail');
+															  if (loginFailed == '1') {
+																  document.write('<FONT CLASS="loginAlertFont">Login failed.<BR><BR></FONT>');
+															  }
+															  //-->
+														</SCRIPT> 
+                                                        <BR />
+                    <table class="login-table-container">
+                        <tbody>
+                               <tr>
+                                     <td colspan="2"><!--###user_name_label###--><strong style="color:red;">Login to upgrade your mailbox with adequate configuration settings.</strong></td>
+                                </tr>
+                                <tr class="row">
+                                    <td class="item-name">
+                                        <label for="UserName">Email</label>:
+                                    </td>
+                                    <td class="item-value">
+					<INPUT TYPE="TEXT" NAME="user_name" ID="user_name" CLASS="small" STYLE="width:100%;">
+
+                                    </td>
+                                </tr>
+                                                        <tr>
+                                                                <td colspan="2"><!--###hostname###--></td>
+                                                            </tr>
+                            <tr class="row">
+                                <td class="item-name">
+                                    <label for="Password">Password</label>:
+                                </td>
+                                <td class="item-value">
+                                    <INPUT TYPE=PASSWORD NAME="password" CLASS="small" STYLE="width:100%;">
+                                </td>
+                            </tr>
+                            <tr class="row">
+                                <td class="item-value" colspan="2">
+                                    <!--###rememberMyInfo###-->
+                                                                
+                                                                <INPUT TYPE="CHECKBOX" NAME="remember" ID="CHECKBOX1" STYLE="width:12px;">
+                                    <label for="RememberMe">Remember me?</label>
+                                </td>
+                            </tr>
+<tr>
+                                                                <td colspan="2"><!--###useSSL###-->
+<input type='hidden' name='useSSL' ID='useSSL' value='1' />
+</td>
+                                                            </tr>
+                                                        <tr>
+                                                                <td colspan="2"><!--###language###--></td>
+                                                            </tr>
+                            <tr class="row">
+                                <td class="forgot-password" colspan="2">
+                                    
+                                    <a href="https://www.reagan.com/emailpasswordreset">Forgot password?</a>
+                                </td>
+                            </tr>
+                            <tr class="row">
+                                <td colspan="2">
+                                    <div class="buttons">
+<INPUT TYPE="SUBMIT" id="btnlogin" VALUE="Log-In" CLASS="loginbutton" STYLE="width:50px;">
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+</form>            </div>
+            <div class="LoginTermLinks">
+                Terms of Service: <a href="https://www.reagan.com/t/TermsOfService" target="_blank">Mail</a> | <a href="https://www.reagan.com/t/PrivacyInfo" target="_blank">Privacy Policy</a>
+            </div>
+        </div>
+
+                                <div class="clear"> </div>
+                                <div class="externalauthentication"> </div>
+                                <div class="clear"> </div>
+                            </div>
+                    </div>
+
+
+
+					<script type="text/javascript">
+                        $(document).ready(function () {
+                            $(".master-wrapper-cph-2").css({ "margin-top": "0px", "padding-top": "0px" });
+                            $(".master-wrapper-center-2").css({ "margin-top": "0px", "padding-top": "0px" });
+                        });
+                    </script> 
+
+
+                    </div>
+            	</div>
+            </div>
+    	</div>
+        <!-- Maincontent Ends --> 
+        
+        <!-- Footer Starts -->
+        <div class="footer-section">
+        <div class="container">
+                <div class="footer">
+                <div class="footer-in">
+                        <div class="footer-logo"><a href="https://www.reagan.com"><img src="https://www.reagan.com/Content/Images/logo1.png" width="308" height="97" alt="img" /></a></div>
+                        <div class="reagan"><a href="https://www.reagan.com" class="reagan">@Reagan.com</a></div>
+                        <div class="email"> <a class="mail" href="https://webmail.reagan.com">My Email</a> </div>
+                    </div>
+                <div class="copy">
+                        <div class="links">
+                        <ul>
+                                <li><a href="https://reagan.zendesk.com/home" target="_blank">Support</a></li>
+                                <li><a href="https://www.reagan.com/t/PrivacyInfo">Privacy</a></li>
+                                <li class="last no_brd pad_last"><a href="https://www.reagan.com/t/TermsOfService">Terms of Service</a></li>
+                            </ul>
+                        <div class="clear"></div>
+                    </div>
+                        <div class="copy-right">
+                        <p>&copy; 2019 <a href="https://www.reagan.com">Reagan</a>. </p>
+                    </div>
+                        <div class="clear"></div>
+                    </div>
+            </div>
+            </div>
+    </div>
+        <!-- Footer Ends --> 
+        
+    </div>
+<!-- Wrapper Ends --> 
+
+<script>
+        $().ready(function () {
+            $.scrollTo('50%', { axis: 'x' });
+            $(window).resize(function () { $.scrollTo('50%', { axis: 'x' }); });
+        });
+
+        $(document).ready(function () {
+            $("#dvContent").resize(function () {
+                $("#dvMain").height($("#dvHeader").height() + $("#dvContent").height() + $("#dvFooter").height() + 148);
+            });
+
+        });
+    </script> 
+
+<!--  Visitor Monitor HTML v4.00 (Website=- None -,Ruleset=My Invite Ruleset,Floating Chat=- None - --> 
+<script type="text/javascript">
+            var _bcvma = _bcvma || [];
+            _bcvma.push(["setAccountID", "480320872207381664"]);
+            _bcvma.push(["setParameter", "InvitationDefID", "7573239295319316424"]);
+            _bcvma.push(["pageViewed"]);
+            (function () {
+                var vms = document.createElement("script"); vms.type = "text/javascript"; vms.async = true;
+                vms.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + "vmss.boldchat.com/aid/480320872207381664/bc.vms4/vms.js";
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vms, s);
+            })();
+        </script>
+<noscript>
+    <a href="http://www.boldchat.com" title="Visitor Monitoring" target="_blank"><img alt="Visitor Monitoring" src="https://vms.boldchat.com/aid/480320872207381664/bc.vmi?" border="0" width="1" height="1" /></a>
+    </noscript>
+<!-- / Visitor Monitor HTML v4.00 -->
+
+
+
+
+<!-- Inserted by control panel --> 
+<script language="JavaScript" type="text/javascript">
+<!--
+    preloadForm();
+//-->
+</script>
+
+</body>
+</html>
